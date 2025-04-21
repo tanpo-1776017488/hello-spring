@@ -22,7 +22,7 @@ public class MemberServiceCodeTest {
 
     @AfterEach
     public void clear() {
-        memberRepository.clearStore();
+        memoryMemberRepository.clearStore();
     }
 
     @Test
